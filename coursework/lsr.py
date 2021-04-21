@@ -101,7 +101,7 @@ def least_squares(X, Y):
     return np.linalg.inv(X.T.dot(X)).dot(X.T).dot(Y)
 
 #Begin
-xs, ys = load_points_from_file("datafiles/train_data/adv_3.csv")
+xs, ys = load_points_from_file("datafiles/train_data/basic_2.csv")
 view_data_segments(xs,ys)
 
 total_reconstruction_error = 0
